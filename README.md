@@ -82,3 +82,14 @@ Binary Cross-Entropy Loss
 
 *Loss decreases as performance gets better
 ```
+
+Metrics of Performance - Accuracy
+```
+Prediction      Actual        
+Apple           Apple         O 
+Orange          Orange        O
+Orange          Apple         X
+Apple           Apple         O
+
+Accuracy of this model is 3/4, or 75%
+```
