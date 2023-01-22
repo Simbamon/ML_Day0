@@ -1,4 +1,4 @@
-# Scikit-learn
+# Machine Learning Day 0
 
 ## How to set up conda in VSCode
 
@@ -93,3 +93,20 @@ Apple           Apple         O
 
 Accuracy of this model is 3/4, or 75%
 ```
+
+FIXES
+
+- **bash: conda: command not found**
+
+        Get the folder directory of /anaconda3/etc/profile.d
+        Right click and open Git Bash:
+            $ echo ". ${PWD}/conda.sh" >> ~/.bashrc
+        Reopen Git Bash:
+            $ conda activate
+        Conda is now activated in Git Bash
+
+- **ModuleNotFoundError: No module named 'imblearn'**
+
+        In Git Bash:
+            $ conda install -c conda-forge imbalanced-learn
+        to install imblearn module
