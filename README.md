@@ -94,7 +94,7 @@ Apple           Apple         O
 Accuracy of this model is 3/4, or 75%
 ```
 
-FIXES
+## FIXES
 
 - **bash: conda: command not found**
 
