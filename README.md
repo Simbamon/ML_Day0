@@ -94,6 +94,16 @@ Apple           Apple         O
 Accuracy of this model is 3/4, or 75%
 ```
 
+K-nearest neighbors
+
+```
+Look at what's around you and take the label of the majority that's around me
+K is the number of neighbors you are going to use to determine the value (usually 3 to 5)
+When you decide the number of K, you look at the nearest K number of data around the point and get the majority
+
+K-nearest neighbors can be extrapolated to high dimension as well
+```
+
 ## FIXES
 
 - **bash: conda: command not found**
