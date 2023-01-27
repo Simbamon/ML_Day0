@@ -104,6 +104,10 @@ When you decide the number of K, you look at the nearest K number of data around
 K-nearest neighbors can be extrapolated to high dimension as well
 ```
 
+Precision and Recall
+
+Check this [Wikipedia Page](https://en.wikipedia.org/wiki/Precision_and_recall) for detail
+
 ## FIXES
 
 - **bash: conda: command not found**
