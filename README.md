@@ -20,6 +20,9 @@ to create blank Jupyter notebook on VSCode
 
 ## Extra Notes
 
+### This github page is based on this [FCC Youtube Video](https://www.youtube.com/watch?v=i_LwzRVP7bg) 
+
+
 Supervised Learning  
 ```
 Uses labeled inputs (meaning the input has a corresponding output label) to train models and learn outputs
@@ -108,6 +111,20 @@ Precision and Recall
 
 Check this [Wikipedia Page](https://en.wikipedia.org/wiki/Precision_and_recall) for detail
 
+Naive Bayes
+
+```
+In order to understand the Naive Bayes, you need to understand conditional probability and bayes rule
+Used Covid test result as an example (Check https://youtu.be/i_LwzRVP7bg?t=3515 for detail)
+
+Probability
+    Q: What is the probability of having covid given a positive test?
+    P(Covid|+Test) = 531/551 = 96.4%
+
+Bayes Rule
+    P(A|B) = P(B|A)*P(A)/P(B)
+
+```
 ## FIXES
 
 - **bash: conda: command not found**
