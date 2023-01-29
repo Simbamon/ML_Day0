@@ -124,6 +124,16 @@ Probability
 Bayes Rule
     P(A|B) = P(B|A)*P(A)/P(B)
 
+    B = Condition
+
+    P(False Positive) = 0.05
+    P(False Negative) = 0.01
+    P(Disease) = 0.1
+    P(Disease|(+)Test)
+
+    * False Positive is when you test positive, but you don't have the disease
+    * False Negative is the oppsoite of False Positive
+
 ```
 ## FIXES
 
