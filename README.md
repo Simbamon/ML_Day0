@@ -129,11 +129,15 @@ Bayes Rule
     P(False Positive) = 0.05
     P(False Negative) = 0.01
     P(Disease) = 0.1
-    P(Disease|(+)Test)
+    P(Disease|(+)Test) = P(+|disease)*P(disease)/P(+) = 0.99 * 0.1 / P(+)
+                       = 0.6875 or 68.75%
 
     * False Positive is when you test positive, but you don't have the disease
     * False Negative is the oppsoite of False Positive
 
+    All the probabilty added up should be 1.0
+
+    Check the rest of the Bayes Rules note in here: https://youtu.be/i_LwzRVP7bg?t=4080
 ```
 ## FIXES
 
