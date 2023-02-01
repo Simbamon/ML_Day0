@@ -139,6 +139,22 @@ Bayes Rule
 
     Check the rest of the Bayes Rules note in here: https://youtu.be/i_LwzRVP7bg?t=4080
 ```
+
+Logistic Regression
+
+```
+How can we model probability?
+    
+    p = mx + b -> p/(1-p) = mx + b -> ln(p/(1-p)) = mx + b
+    And this make sigmoid function
+    Check the formula in here: https://youtu.be/i_LwzRVP7bg?t=4950
+
+    Basically trying to fit the data to the Sigmoid Function
+
+    Simple Logistic Regression: if you only have one feature (x)
+    Multiple Logistic Regression: if you have multiple features (x1, x2, ... xn)
+```
+
 ## FIXES
 
 - **bash: conda: command not found**
