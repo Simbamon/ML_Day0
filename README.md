@@ -155,6 +155,18 @@ How can we model probability?
     Multiple Logistic Regression: if you have multiple features (x1, x2, ... xn)
 ```
 
+Support Vector Machines(SVM)
+```
+Check https://youtu.be/i_LwzRVP7bg?t=5355 for detailed explanation
+Trying to find a line between two labels
+In 2-Dimesional graph, it would be a line but in 3-D, it would be a plane and you can have more dimensions
+So to be precise with the term, it is to trying to find a hyperplane that differentiate between these labels
+
+Margin
+Not only to separate the classes, SVM also cares about the boundary in between where the points in those classes in the dataset
+
+```
+
 ## FIXES
 
 - **bash: conda: command not found**
