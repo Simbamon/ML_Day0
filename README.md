@@ -165,6 +165,10 @@ So to be precise with the term, it is to trying to find a hyperplane that differ
 Margin
 Not only to separate the classes, SVM also cares about the boundary in between where the points in those classes in the dataset
 
+In 1-Dimensional array, you could make it like 2-D graph with x^2 on the y-axis so that SVM model can draw the divider
+    Kernel Trick
+    When you go from x to x1(x^2). we are applying kernel
+Check https://youtu.be/i_LwzRVP7bg?t=5684 for detailed explanation
 ```
 
 ## FIXES
